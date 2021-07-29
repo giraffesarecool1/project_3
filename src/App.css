@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start
+}
+
+.photos img {
+  width: 250px;
+  height: 250px;
+  margin: 100px;
+}
+
+.no-results-imafraid {
+  display: flex;
+  justify-content: center;
+  flex-basis: 99vw;
+  flex-shrink: 0;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
